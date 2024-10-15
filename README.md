@@ -4,6 +4,8 @@
 
 <img alt="autobangumi" src="https://raw.githubusercontent.com/jacksen168sub/AB_AR_exclude_regular_expressions/refs/heads/main/images/AB.jpg"/>
 <img alt="ANI-RSS" src="https://raw.githubusercontent.com/jacksen168sub/AB_AR_exclude_regular_expressions/refs/heads/main/images/AR.jpg"/>
+
+
 # 说明
 
 规则都是本人玩了半年autobangumi不断修改，迭代下来的，同样适用于ANI-RSS的排除规则。
