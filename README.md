@@ -21,11 +21,11 @@
 - [喵萌奶茶屋](#喵萌奶茶屋)
 - [北宇治字幕组](#北宇治字幕组)
 - [MingY](#MingY)
-- [❀拨雪寻春❀](#❀拨雪寻春❀)
+- [❀拨雪寻春❀](#%E6%8B%A8%E9%9B%AA%E5%AF%BB%E6%98%A5)
 - [LoliHouse](#LoliHouse)
 - [沸羊羊字幕组](#沸羊羊字幕组)
-- [漫猫字幕组&猫恋汉化组](#漫猫字幕组&猫恋汉化组)
-- [Kirara Fantasia](#Kirara%20Fantasia)
+- [漫猫字幕组&猫恋汉化组](##%E6%BC%AB%E7%8C%AB%E5%AD%97%E5%B9%95%E7%BB%84%E7%8C%AB%E6%81%8B%E6%B1%89%E5%8C%96%E7%BB%84)
+- [Kirara Fantasia](#kirara-fantasia)
 
 ---
 
