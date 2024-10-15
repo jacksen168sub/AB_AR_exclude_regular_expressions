@@ -2,6 +2,8 @@
 
 **适用于AutoBangumi/ANI-RSS的自用排除正则表达式**
 
+<img alt="autobangumi" src="https://raw.githubusercontent.com/jacksen168sub/AB_AR_exclude_regular_expressions/refs/heads/main/images/AB.jpg"/>
+<img alt="ANI-RSS" src="https://raw.githubusercontent.com/jacksen168sub/AB_AR_exclude_regular_expressions/refs/heads/main/images/AR.jpg"/>
 # 说明
 
 规则都是本人玩了半年autobangumi不断修改，迭代下来的，同样适用于ANI-RSS的排除规则。
@@ -10,6 +12,19 @@
 纯属个人总结内容，具有时效性。请以个人情况/实际情况为准。(2024.10.15)
 
 ---
+# 目录:
+
+
+- [桜都字幕组](#桜都字幕组)
+- [喵萌奶茶屋](#喵萌奶茶屋)
+- [北宇治字幕组](#北宇治字幕组)
+- [MingY](#MingY)
+- [❀拨雪寻春❀](#❀拨雪寻春❀)
+- [LoliHouse](#LoliHouse)
+- [沸羊羊字幕组](#沸羊羊字幕组)
+- [漫猫字幕组&猫恋汉化组](#漫猫字幕组&猫恋汉化组)
+- [Kirara Fantasia](#Kirara%20Fantasia)
+
 ---
 
 
@@ -205,7 +220,7 @@
 ###### 命名:
 - **(ABEMA 1280x720 AVC AAC MP4):** `ABEMA源,开头有A爹跳脸,720p分辨率,繁体字幕内嵌`
 - **(Baha 1920x1080 AVC AAC MP4):** `巴哈源,开头有A爹跳脸,和谐较少,繁体字幕内嵌`
-- **(B-Global 3840x2160 HEVC AAC MKV):** `B站东南亚源,4K超高清分辨率码率高,字幕多国语言内封(有时有中文字幕)`
+- **(B-Global 3840x2160 HEVC AAC MKV):** `B站东南亚源,多为1080P偶尔有4K分辨率,字幕多国语言内封(有时有中文字幕)`
 - **(CR 1920x1080 AVC AAC MKV):** `CR源,1080P分辨率,文件体积较大,码率最高,字幕内封`
 
 
