@@ -3,7 +3,7 @@
 **适用于AutoBangumi/ANI-RSS的自用排除正则表达式**
 
 <img alt="autobangumi" src="https://raw.githubusercontent.com/jacksen168sub/AB_AR_exclude_regular_expressions/refs/heads/main/images/AB.jpg"/>
-<img alt="ANI-RSS" src="https://raw.githubusercontent.com/jacksen168sub/AB_AR_exclude_regular_expressions/refs/heads/main/images/AR.jpg"/>
+<img alt="ANI-RSS" src="https://raw.githubusercontent.com/jacksen168sub/AB_AR_exclude_regular_expressions/refs/heads/main/images/AR.png"/>
 
 
 # 说明
@@ -13,7 +13,12 @@
 这里只放出来自己平时订阅的比较多的字幕组，字幕组不分排名先后 。
 纯属个人总结内容，具有时效性。请以个人情况/实际情况为准。(2024.10.15)
 
----
+近一年都在使用ANI-RSS了, ANI-RSS现版本已经内置匹配规则, 貌似像这样费力的写正则匹配排除规则已成为了历史。(2026.01.05)
+<img alt="ANI-RSS" src="https://raw.githubusercontent.com/jacksen168sub/AB_AR_exclude_regular_expressions/refs/heads/main/images/AR_2.png"/>
+
+------------
+------------
+
 # 目录:
 
 
@@ -26,9 +31,10 @@
 - [沸羊羊字幕组](#沸羊羊字幕组)
 - [漫猫字幕组&猫恋汉化组](#%E6%BC%AB%E7%8C%AB%E5%AD%97%E5%B9%95%E7%BB%84%E7%8C%AB%E6%81%8B%E6%B1%89%E5%8C%96%E7%BB%84)
 - [Kirara Fantasia](#kirara-fantasia)
+- [悠哈璃羽字幕社](#%E6%82%A0%E5%93%88%E7%92%83%E7%BE%BD%E5%AD%97%E5%B9%95%E7%A4%BE)
 
----
-
+------------
+------------
 
 
 # 桜都字幕组
@@ -66,6 +72,7 @@
 
 
 ------------
+------------
 
 
 # 喵萌奶茶屋:
@@ -88,7 +95,7 @@
  - `[喵萌奶茶屋]★07月新番★[鹿＊子虎视眈眈 / Shikanoko Nokonoko Koshitantan][03][1080p][繁体][招募翻译]`
 
 ------------
-
+------------
 
 # 北宇治字幕组:
 ## 命名:
@@ -110,9 +117,8 @@
 
 > 个人说明:由于提供了三语版本，建议直接选择`简繁日内封`，使用`^(?=.*\[北宇治字幕组\])(?=.*内嵌).*`排除内嵌版本
 
-
 ------------
-
+------------
 
 # MingY:
 ## 命名:
@@ -134,9 +140,8 @@
 
 > 个人说明:由于提供了三语版本，建议直接选择`简繁日内封`，使用`^(?=.*\[MingY\])(?=.*内嵌).*`排除内嵌版本
 
-
 ------------
-
+------------
 
 # ❀拨雪寻春❀:
 ## 命名:
@@ -159,9 +164,8 @@
 
 > 个人说明:由于提供了三语版本，建议直接选择`简繁日内封`，使用`^(?=.*\[\❀拨雪寻春\❀\])(?=.*内嵌).*`排除内嵌版本
 
-
 ------------
-
+------------
 
 # LoliHouse:
 
@@ -182,9 +186,8 @@
 
 ### 说明: 发布作品均为双语字幕，无需要排除
 
-
 ------------
-
+------------
 
 # 漫猫字幕组&猫恋汉化组:
 
@@ -212,9 +215,8 @@
 
 > 注意: 爱恋&漫猫字幕组发布的作品通常带有`1080p`和`720p`两个版本。不需要`720p`版本可直接添加`720p`规则进行排除
 
-
 ------------
-
+------------
 
 ## Kirara Fantasia:
 
@@ -231,7 +233,7 @@
 > 说明:开头4-5秒的Aniplex，有时会影响自备字幕，导致画面与字幕不同步，个人觉得很影响观感
 
 
-###### 正则表达式:
+### 正则表达式:
 ```text
 ^(?=.*\[Up to 21\°C\])(?!.*\b(?:B\-Global)\b).*
 ```
@@ -244,5 +246,27 @@
  - B站东南亚源: `[Up to 21°C] 败犬女主太多了！ / Make Heroine ga Oosugiru! - 07 (B-Global 3840x2160 HEVC AAC MKV)`
  - CR源: `[Up to 21°C] 败北女角太多了！ / Make Heroine ga Oosugiru! - 07 (CR 1920x1080 AVC AAC MKV)`
 
+------------
+------------
+
+## 悠哈璃羽字幕社:
+
+###### 命名:
+- `[繁日内嵌]:[1080p HEVC][CHT_JP].mp4`
+- `[简日内嵌]:[1080p HEVC][CHS_JP].mp4`
+
+### 正则表达式:
+```text
+^(?=.*悠哈璃羽字幕社)(?=.*繁日内嵌).*
+```
+
+### 排除说明:`悠哈璃羽字幕社+繁日内嵌`
+
+### 例子:
+- `【悠哈璃羽字幕社】[沉默魔女的秘密/Silent Witch - Chinmoku no Majo no Kakushigoto][06][1080p HEVC][CHT_JP][繁日内嵌]`
+- `[悠哈璃羽字幕社][沉默魔女的秘密/Silent Witch - Chinmoku no Majo no Kakushigoto][06][1080p HEVC][CHT_JP][繁日内嵌]`
+
+------------
+------------
 
 > 目前就这些,以后还有再补充
